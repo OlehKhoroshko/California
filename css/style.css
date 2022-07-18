@@ -1,0 +1,255 @@
+@import "https://fonts.googleapis.com";
+@import "https://fonts.gstatic.com";
+@import "https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap";
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 30px 0;
+}
+header .container .navbar {
+  position: relative;
+}
+header .container .navbar .navigator {
+  justify-content: end;
+}
+header .container .navbar .navigator_ul .nav-item a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+}
+header .container .navbar .navbar-brand img {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  justify-content: left;
+  height: 21px;
+  left: 0;
+  top: 16px;
+}
+
+.sec_owl_car .container .slider .item {
+  background: url("../images/owl_back.jpg");
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 32px;
+  padding: 145px 0 0 56px;
+}
+.sec_owl_car .container .slider .item .h1_main {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+  max-width: 588px;
+}
+.sec_owl_car .container .slider .item .p_main {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin: 19px 0 44px 0;
+}
+.sec_owl_car .container .slider .item .a_main {
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 14px 53px;
+  margin-bottom: 127px;
+}
+
+.owl-nav .owl-next:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f104";
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  left: 19px;
+  top: 260px;
+  width: 12px;
+  height: 24px;
+}
+
+.owl-nav .owl-prev:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f105";
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  right: 19px;
+  top: 260px;
+  width: 12px;
+  height: 24px;
+}
+
+.sec_show_our {
+  padding: 75px 72px;
+}
+.sec_show_our .container .first_row {
+  margin-bottom: 55px;
+}
+.sec_show_our .container .first_row h2 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.sec_show_our .container .first_row p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  max-width: 628px;
+  margin: auto;
+}
+.sec_show_our .container .second_row .laptop {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.sec_show_our .container .second_row .laptop img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 18px;
+}
+.sec_show_our .container .second_row .laptop h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: right;
+  color: #000000;
+}
+.sec_show_our .container .second_row .laptop h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  color: #000000;
+}
+.sec_show_our .container .second_row .watch {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  background: #FFFFFF;
+  margin-top: 72px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.sec_show_our .container .second_row .watch img {
+  display: block;
+  max-width: 100%;
+}
+.sec_show_our .container .second_row .watch h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: right;
+  color: #000000;
+}
+.sec_show_our .container .second_row .watch h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  color: #000000;
+}
+.sec_show_our .container .second_row .watch .watch_text {
+  align-items: end;
+}
+.sec_show_our .container .second_row .phones {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.sec_show_our .container .second_row .phones img {
+  display: block;
+  max-width: 100%;
+  margin-top: 144px;
+  margin-bottom: 41px;
+}
+.sec_show_our .container .second_row .phones h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+.sec_show_our .container .second_row .phones h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.sec_show_our .container .second_row .tablets {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.sec_show_our .container .second_row .tablets img {
+  display: block;
+  max-width: 100%;
+}
+.sec_show_our .container .second_row .tablets h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin-top: 114px;
+}
+.sec_show_our .container .second_row .tablets h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 42px;
+}
+
+/*# sourceMappingURL=style.css.map */
