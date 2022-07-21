@@ -4,7 +4,6 @@
 @import "bootstrap.css";
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
-@import "media-queries.css";
 * {
   padding: 0;
   margin: 0;
@@ -516,14 +515,15 @@ header .container .navbar .navbar-brand img {
   position: relative;
   z-index: 5;
 }
-.sec_looking_for .container .second_row {
-  align-items: center;
-  justify-content: space-between;
+.sec_looking_for .container .second_row .span_container {
+  margin-bottom: 25px;
+  flex-wrap: wrap;
 }
-.sec_looking_for .container .second_row p {
-  margin-top: 33px;
+.sec_looking_for .container .second_row .span_container div {
+  height: 40px;
+  margin: 5px 10px;
 }
-.sec_looking_for .container .second_row p .spans_looking_for {
+.sec_looking_for .container .second_row .span_container div .spans_looking_for {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -680,6 +680,29 @@ footer .container .second_row .webflow_link span {
 .link_to_nav::after {
   content: url("../images/psevdo_nav_solution.svg");
   margin-left: 5px;
+}
+
+@media (max-width: 990.98px) {
+  .owl-theme .owl-dots {
+    display: none;
+  }
+  .owl-nav .owl-prev::before {
+    display: none;
+  }
+  .owl-nav .owl-next:before {
+    display: none;
+  }
+  .ul_icon .nav_img_1 {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  .ul_icon .nav_img_2 {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    margin-bottom: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

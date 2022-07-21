@@ -4,13 +4,10 @@
 @import "bootstrap.css";
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
-@import "media-queries.css";
-
 
 $i_font: 'Inter';
 $r_font: 'Readex Pro';
 $color_black: #000000;
-
 
 *{
   padding: 0;
@@ -35,7 +32,6 @@ header {
   right: 0;
   .nav_icon{
     list-style-type: none;
-
   }
 }
       .navigator_ul {
@@ -75,8 +71,6 @@ header {
     }
   }
 }
-
-
 
 .sec_owl_car {
   .container {
@@ -143,23 +137,19 @@ header {
 
 .owl-theme{
   position: relative;
-  .owl-dots{
+  .owl-dots {
     position: absolute;
     bottom: 60px;
     left: 240px;
-
-.owl-dot{
-span{
-  width: 194px;
-  height: 2px;
-  background: #000000;
-  border-radius: 0;
-
-}
-}
-  }
-}
-
+    .owl-dot {
+      span {
+        width: 194px;
+        height: 2px;
+        background: #000000;
+        border-radius: 0;
+      }
+    }
+  }}
 
 
 .owl-nav .owl-prev::before{
@@ -609,29 +599,30 @@ span{
           }
         }
         .form-control{
-
         }
       }
     }
     .second_row{
 
-      align-items: center;
-      justify-content: space-between;
-      p { margin-top: 33px;
+      .span_container {
+        margin-bottom: 25px;
+        flex-wrap: wrap;
+        div {
 
-        .spans_looking_for {
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 17px;
-          color: #000000;
-          background: #FFFFFF;
-          border: 1px solid #C5C5C5;
-          border-radius: 200px;
-          padding: 12px 22px;
-
-
+          height: 40px;
+          margin: 5px 10px;
+          .spans_looking_for {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            background: #FFFFFF;
+            border: 1px solid #C5C5C5;
+            border-radius: 200px;
+            padding: 12px 22px;
+          }
         }
       }
     }
@@ -674,6 +665,7 @@ span{
           border-radius: 54px 0px 0px 54px;
           .form-control{
             .input-group-append{
+
               .input-group-text{
                 display: flex;
                 -ms-flex-align: center;
@@ -706,7 +698,6 @@ footer{
   margin: auto;
   .container {
     background: #F8F9FA;
-
 
     .first_row{
       text-align: left;
@@ -780,7 +771,6 @@ footer{
         span{
           margin: auto;
           font-family: $i_font;
-
         }
       }
     }
@@ -797,3 +787,35 @@ position: absolute;
   margin-left: 5px;
 }
 
+@media (max-width: 990.98px) {
+
+  .owl-theme {
+    .owl-dots {
+      display: none;
+    }
+  }
+
+  .owl-nav .owl-prev::before {
+    display: none;
+  }
+  .owl-nav .owl-next:before {
+    display: none;
+  }
+
+  .ul_icon {
+
+    .nav_img_1{
+position: absolute;
+      top: 30px;
+      right: 20px;
+
+    }
+    .nav_img_2{
+      position: absolute;
+      top: 80px;
+      right: 20px;
+      margin-bottom: 15px;
+
+    }
+  }
+}
