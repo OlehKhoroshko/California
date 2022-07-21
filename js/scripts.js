@@ -5,7 +5,7 @@ $(document).ready(function(){
         margin:0,
         autoplay: false,
         nav: true,
-        dots: false,
+        dots: true,
         navText: [ '', ' ' ],
 
         responsive:{
